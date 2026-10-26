@@ -22,7 +22,7 @@
     </div>
 @elseif (isset($pendingTeamLeaves))
     <a href="{{ route('hr.leaves.index') }}" class="mb-8 block rounded-xl bg-amber-50 p-4 text-sm text-amber-800 hover:bg-amber-100">
-        {{ $pendingTeamLeaves }} pengajuan cuti tim menunggu persetujuan Anda.
+        {{ $pendingTeamLeaves }} pengajuan cuti tim menunggu persetujuan anda.
     </a>
 @endif
 
